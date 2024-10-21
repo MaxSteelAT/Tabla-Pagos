@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/chart.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tarjetón</title>
+</head>
+
+<body>
+  <header id="container">
+    <img
+      src="https://uploads.turbologo.com/uploads/design/hq_preview_image/2647383/draw_svg20210706-29449-f4wzsc.svg.png"
+      alt="">
+    <h2 id="tittle">Tarjetón de pagos</h2>
+    <h4 id="formattedDate">Today is: </h4>
+  </header>
+  <h3>Verificación de Pagos de Colegiatura.</h3>
+  <h3>Nombre del alumno:</h3>
+  <label>Pago</label>
+  <input id="payment" type="numeric" />
+  <button id="add-payment">Agregar</button>
+  <div>
+    Total de pagos: <span id="total-payments">0</span>
+  </div>
+  <hr />
+  <div id="container-table">
+    <div id="table">
+      <table id="elements-table" border="3px">
+        <thead>
+          <tr>
+            <th id="tittle-table" colspan="4">Calendario Anual 2024</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center;">
+            <td> Enero
+              <div class="months" id="january">Pendiente</div>
+            </td>
+            <td> Febrero
+              <div class="months" id="february">Pendiente</div>
+            </td>
+            <td> Marzo
+              <div class="months" id="march">Pendiente</div>
+            </td>
+            <td> Abril
+              <div class="months" id="april">Pendiente</div>
+            </td>
+          </tr>
+
+          <tr style="text-align: center;">
+            <td> Mayo
+              <div class="months" id="may">Pendiente</div>
+            </td>
+            <td> Junio
+              <div class="months" id="june">Pendiente</div>
+            </td>
+            <td> Julio
+              <div class="months" id="july">Pendiente</div>
+            </td>
+            <td> Agosto
+              <div class="months" id="august">Pendiente</div>
+            </td>
+          </tr>
+          <tr style="text-align: center;">
+            <td> Septiembre
+              <div class="months" id="september">Pendiente</div>
+            </td>
+            <td> Octubre
+              <div class="months" id="october">Pendiente</div>
+            </td>
+            <td> Noviembre
+              <div class="months" id="november">Pendiente</div>
+            </td>
+            <td> Diciembre
+              <div class="months" id="december">Pendiente</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="information">Recordatorio de pago:</h3>
+      <p class="information">Los pagos se realizan durante los primeros 10 días del mes, para mantener el pago de cuota preferencial, a partir de los días 11 al 15 el pago corresponde a colegiatura regular. Posterior al día 15, el pago correspobde a colegiatura con recargo.</p>
+      <li class="information">Cuota preferencial: $1,550 pesos.</li>
+      <li class="information">Cuota regular: $1,750 pesos.</li>
+      <li class="information">Cuota con recargos: $1,950</li>
+      <p class="information">Para convenios y aclaraciones, favor de acercarse al departamento de Control Escolar.</p>
+    </div>
+    <div id="calendary">
+      <h3 class="calendary-text">Calendario Sep 190 dias</h3>
+      <img class="calendary-sep" src="img/calendario.jpeg" alt="">
+    </div>
+  </div>
+  <button id="show-chart">Ver gráfica</button>
+  <canvas id="chart"></canvas>
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/moment.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

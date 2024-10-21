@@ -1,0 +1,86 @@
+body {
+  background-color: #ffe4c41c;
+}
+
+#container {
+  height: 200px;
+  background-color: #0e3160;
+  margin-top: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+img {
+  height: 160px;
+  border-radius: 160px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 80px;
+  color: aliceblue;
+  text-align: center;
+  margin: auto;
+  padding: 0px 0 0 0;
+}
+
+h4 {
+  color: aliceblue;
+  text-align: right;
+  padding: 5px 30px 0 0;
+}
+
+th,
+td {
+  border: 1px solid #04046085;
+  width: 150px;
+  height: 150px;
+  word-wrap: break-word;
+  font-size: large;
+  text-align: center;
+}
+
+#tittle-table {
+  font-size: 50px;
+}
+
+.information {
+  font-size: 25px;
+}
+
+.calendary-text {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.months {
+  text-align: center;
+}
+
+#container-table {
+  display: flex;
+  width: 2500px;
+  margin-left: 30px;
+}
+
+#table {
+  width: 50%;
+  background: #f0ffff42;
+}
+
+#elements-table {
+  width: 100%;
+}
+
+#calendary {
+  width: 50%;
+}
+
+.calendary-sep {
+  width: 90%;
+  height: auto;
+  margin-left: 120px;
+  border-radius: 60px;
+  border-style: groove;
+}
